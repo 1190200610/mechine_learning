@@ -3,8 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from PIL import Image
-
-
 k_list = [4, 8, 12, 16, 20, 24]
 
 
@@ -146,9 +144,9 @@ def test_2D():
 
 
 def main():
-    test_2D()
+    # test_2D()
     # test_3D()
-    # read_pca_face("data/pca_face/data")
+    read_pca_face("data/pca_face/data")
 
 
 if __name__ == '__main__':
